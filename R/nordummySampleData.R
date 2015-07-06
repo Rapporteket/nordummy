@@ -17,5 +17,4 @@
 #' doorToNeedleHours <- rnorm(seq(0,10, length=200), mean=3, sd=1)
 #' nordummySampleData <- data.frame(doorToNeedleHours=doorToNeedleHours, moronScore=moronScore)
 #' save(nordummySampleData, file="nordummySampleData.rda")
-#'
 NULL
