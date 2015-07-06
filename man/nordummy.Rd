@@ -18,7 +18,8 @@ purposes. Not to be used in a PRODUCTION environment!
 
 \section{Functions}{
 
-Standard R-functions for processing registry data
+Standard R-functions for processing registry data. To be placed in
+the package \emph{R} directory.
 }
 
 \section{Noweb-files}{
@@ -30,12 +31,14 @@ the noweb files directly using \emph{Sweave} or \emph{knitr}, \emph{e.g}
 \code{knitr::knit(system.file("nordummyAnnualReport.Rnw", package = "nordummy"))}, or
 by using the wrapper of the \emph{rapbase} package, \emph{e.g.}
 \code{rapbase::RunNoweb(nowebFileName, packageName, weaveMethod = "knitr")}.
+All files are to be put in the package \emph{inst} directory.
 }
 
 \section{Artwork}{
 
 Artwork is accessed in the same way as for the noweb-files, \emph{e.g}
 \code{system.file("nordummy_logo_blue_norsk.pdf", package = "nordummy")}
+All files are to be put in the package \emph{inst} directory.
 }
 \examples{
 help(nordummySampleData)
