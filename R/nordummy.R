@@ -29,8 +29,6 @@
 #' help(nordummySampleData)
 #' data(nordummySampleData)
 #' names(nordummySampleData)
-#' FigFordeling(RegData = NorScirSampleData, outfile = "", valgtVar = "Alder", reshID = 123456)
-#' knitr::knit(system.file("somefile.Rnw", package = "nordummy"))
 #'
 #' @docType package
 #' @name nordummy
