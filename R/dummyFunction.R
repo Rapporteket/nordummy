@@ -11,6 +11,8 @@
 #' @return a histogram...
 #' 
 #' @export
+#'
+
 dummyFunction <- function(doorToNeedleHours, moronScore) {
   
   hist(moronScore)
