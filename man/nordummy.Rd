@@ -44,5 +44,6 @@ All files are to be put in the package \emph{inst} directory.
 help(nordummySampleData)
 data(nordummySampleData)
 names(nordummySampleData)
+dens <- dummyFunction(nordummySampleData$doorToNeedleHours, nordummySampleData$moronScore)
 }
 

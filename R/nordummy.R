@@ -32,6 +32,7 @@
 #' help(nordummySampleData)
 #' data(nordummySampleData)
 #' names(nordummySampleData)
+#' dens <- dummyFunction(nordummySampleData$doorToNeedleHours, nordummySampleData$moronScore)
 #'
 #' @docType package
 #' @name nordummy
