@@ -5,7 +5,7 @@ present, first install the devtools-package from your R terminal:
   install.packages("devtools")
 
 Most R packages at Rapporteket will depend on the "rapbase" package. If not
-already present, install the "rapbase" package from github (not yet present):
+already present, install the "rapbase" package from github:
 
   devtools::install_github("Rapporteket/rapbase")
 
